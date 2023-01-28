@@ -6,7 +6,7 @@ import { Trash, Upload } from "../../UI/Icon";
 export function Ingredients({ ingredients, onDelete, onUpdate, onCreate }) {
   return (
     <div className="container">
-      <h2>List des Ingredients:</h2>
+      <h2>List des Ingredients</h2>
       <CreateIngredient onCreate={onCreate} />
       {ingredients === null ? (
         <Loader />
